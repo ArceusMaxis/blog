@@ -1,7 +1,26 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>Blog</title>
-<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-</head>
-<body>
-</body></html>
+  <head>
+    <title>Blog</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>My Blog</h1>
+    </header>
+    <main>
+      <div class="entry" id="entry1">
+        <h2>Blog Entry 1</h2>
+        <button class="collapse-button" onclick="toggleCollapse(1)">Collapse/Expand</button>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna id interdum malesuada, risus ligula laoreet augue, a bibendum nibh magna ut ex. Nulla facilisi. Sed auctor, magna id interdum malesuada, risus ligula laoreet augue, a bibendum nibh magna ut ex. Nulla facilisi.</p>
+      </div>
+      <div class="entry" id="entry2">
+        <h2>Blog Entry 2</h2>
+        <button class="collapse-button" onclick="toggleCollapse(2)">Collapse/Expand</button>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna id interdum malesuada, risus ligula laoreet augue, a bibendum nibh magna ut ex. Nulla facilisi. Sed auctor, magna id interdum malesuada, risus ligula laoreet augue, a bibendum nibh magna ut ex. Nulla facilisi.</p>
+      </div>
+    </main>
+    <footer>Copyright ©2022 Amirtha Krishnan</footer>
+  </body>
+</html>

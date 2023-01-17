@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 1em;
+}
+
+header h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+main {
+  padding: 1em;
+}
+
+.entry {
+  margin-bottom: 1em;
+  border: 1px solid gray;
+  padding: 1em;
+}
+
+.collapse-button {
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+}
